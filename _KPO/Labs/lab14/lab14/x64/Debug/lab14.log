@@ -1,0 +1,12 @@
+﻿  lab14.cpp
+lab14.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Parm::PARM __cdecl Parm::getparm(int,wchar_t * * const)" (?getparm@Parm@@YA?AUPARM@1@HQEAPEA_W@Z) в функции wmain.
+lab14.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct In::IN __cdecl In::getin(wchar_t * const)" (?getin@In@@YA?AUIN@1@QEA_W@Z) в функции wmain.
+lab14.obj : error LNK2019: ссылка на неразрешенный внешний символ "struct Log::LOG __cdecl Log::getlog(wchar_t * const)" (?getlog@Log@@YA?AULOG@1@QEA_W@Z) в функции wmain.
+lab14.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Log::WriteLine(struct Log::LOG,char *,...)" (?WriteLine@Log@@YAXULOG@1@PEADZZ) в функции wmain.
+lab14.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Log::WriteLine(struct Log::LOG,wchar_t *,...)" (?WriteLine@Log@@YAXULOG@1@PEA_WZZ) в функции wmain.
+lab14.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Log::WriteLog(struct Log::LOG)" (?WriteLog@Log@@YAXULOG@1@@Z) в функции wmain.
+lab14.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Log::WriteParm(struct Log::LOG,struct Parm::PARM)" (?WriteParm@Log@@YAXULOG@1@UPARM@Parm@@@Z) в функции wmain.
+lab14.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Log::WriteIn(struct Log::LOG,struct In::IN)" (?WriteIn@Log@@YAXULOG@1@UIN@In@@@Z) в функции wmain.
+lab14.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Log::WriteError(struct Log::LOG,struct Error::ERROR)" (?WriteError@Log@@YAXULOG@1@UERROR@Error@@@Z) в функции __catch$wmain$4.
+lab14.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl Log::Close(struct Log::LOG)" (?Close@Log@@YAXULOG@1@@Z) в функции wmain.
+C:\kpo\lab14\x64\Debug\lab14.exe : fatal error LNK1120: неразрешенных внешних элементов: 10

@@ -1,0 +1,104 @@
+﻿Сборка начата 30.09.2023 13:41:39.
+Уровень детализации журнала: Normal.     1>Проект "D:\Мои документы\_university\3_sem\KPO\SE_Lab14\SE_Lab14.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\SE_Lab14.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Error.cpp In.cpp SE_Lab14.cpp Log.cpp Out.cpp Parm.cpp
+         Error.cpp
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(9,17): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(9,11): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "errors"
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(10,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(10,5): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(34,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(34,5): error C2086: int In::Error::ERROR: переопределение
+       D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(9): message : см. объявление "In::Error::ERROR"
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(34,11): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "geterror"
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(35,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(35,5): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(39,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(39,5): error C2086: int In::Error::ERROR: переопределение
+       D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(9): message : см. объявление "In::Error::ERROR"
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(39,11): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "geterrorin"
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(40,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(40,5): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\In.h(10): fatal  error C1075: "{": не найдена несоответствующая лексема
+         In.cpp
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\In.h(10): fatal  error C1075: "{": не найдена несоответствующая лексема
+         SE_Lab14.cpp
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\In.h(10): fatal  error C1075: "{": не найдена несоответствующая лексема
+         Log.cpp
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\In.h(10): fatal  error C1075: "{": не найдена несоответствующая лексема
+         Out.cpp
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\In.h(10): fatal  error C1075: "{": не найдена несоответствующая лексема
+         Parm.cpp
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(19,8): error C3861: wcslen: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(24,8): error C3861: wcsstr: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(26,26): error C3861: wcslen: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(26,9): error C3861: wcslen: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(28,33): error C3861: wcslen: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(28,5): error C3861: wcscpy_s: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(31,8): error C3861: wcsstr: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(31,56): error C3861: wcslen: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(31,39): error C3861: wcslen: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(32,34): error C3861: wcslen: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(32,5): error C3861: wcscpy_s: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(35,8): error C3861: wcsstr: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(35,56): error C3861: wcslen: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(35,39): error C3861: wcslen: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(36,34): error C3861: wcslen: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(36,5): error C3861: wcscpy_s: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(42,4): error C3861: wcscpy_s: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(43,4): error C3861: wcscat_s: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(46,4): error C3861: wcscpy_s: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(47,4): error C3861: wcscat_s: идентификатор не найден
+         Создание кода...
+     1>Сборка проекта "D:\Мои документы\_university\3_sem\KPO\SE_Lab14\SE_Lab14.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\Мои документы\_university\3_sem\KPO\SE_Lab14\SE_Lab14.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(9,17): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(9,11): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "errors"
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(10,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(10,5): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(34,19): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(34,5): error C2086: int In::Error::ERROR: переопределение
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(34,11): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "geterror"
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(35,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(35,5): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(39,21): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(39,5): error C2086: int In::Error::ERROR: переопределение
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(39,11): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "geterrorin"
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(40,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Error.cpp(40,5): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\In.h(10): fatal  error C1075: "{": не найдена несоответствующая лексема
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\In.h(10): fatal  error C1075: "{": не найдена несоответствующая лексема
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\In.h(10): fatal  error C1075: "{": не найдена несоответствующая лексема
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\In.h(10): fatal  error C1075: "{": не найдена несоответствующая лексема
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\In.h(10): fatal  error C1075: "{": не найдена несоответствующая лексема
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(19,8): error C3861: wcslen: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(24,8): error C3861: wcsstr: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(26,26): error C3861: wcslen: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(26,9): error C3861: wcslen: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(28,33): error C3861: wcslen: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(28,5): error C3861: wcscpy_s: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(31,8): error C3861: wcsstr: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(31,56): error C3861: wcslen: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(31,39): error C3861: wcslen: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(32,34): error C3861: wcslen: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(32,5): error C3861: wcscpy_s: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(35,8): error C3861: wcsstr: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(35,56): error C3861: wcslen: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(35,39): error C3861: wcslen: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(36,34): error C3861: wcslen: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(36,5): error C3861: wcscpy_s: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(42,4): error C3861: wcscpy_s: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(43,4): error C3861: wcscat_s: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(46,4): error C3861: wcscpy_s: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SE_Lab14\Parm.cpp(47,4): error C3861: wcscat_s: идентификатор не найден
+
+    Предупреждений: 0
+    Ошибок: 39
+
+Прошло времени 00:00:02.19

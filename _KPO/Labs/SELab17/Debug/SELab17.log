@@ -1,0 +1,28 @@
+﻿Сборка начата 02.10.2023 23:45:36.
+Уровень детализации журнала: Normal.     1>Проект "D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\SELab17.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt SELab17.cpp
+         SELab17.cpp
+     1>D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.cpp(30,19): error C2039: "getin": не является членом "In".
+       D:\Мои документы\_university\3_sem\KPO\SELab17\In.h(9): message : см. объявление "In"
+     1>D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.cpp(30,24): error C3861: getin: идентификатор не найден
+     1>D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.cpp(54,19): error C2039: "getin": не является членом "In".
+       D:\Мои документы\_university\3_sem\KPO\SELab17\In.h(9): message : см. объявление "In"
+     1>D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.cpp(54,24): error C3861: getin: идентификатор не найден
+     1>Сборка проекта "D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.cpp(30,19): error C2039: "getin": не является членом "In".
+         D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.cpp(30,24): error C3861: getin: идентификатор не найден
+         D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.cpp(54,19): error C2039: "getin": не является членом "In".
+         D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.cpp(54,24): error C3861: getin: идентификатор не найден
+
+    Предупреждений: 0
+    Ошибок: 4
+
+Прошло времени 00:00:00.69

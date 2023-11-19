@@ -1,0 +1,8 @@
+D:\Мои документы\Учеба\3 семестр\ООП\lab00\bin\Debug\lab00.exe.config
+D:\Мои документы\Учеба\3 семестр\ООП\lab00\bin\Debug\lab00.exe
+D:\Мои документы\Учеба\3 семестр\ООП\lab00\bin\Debug\lab00.pdb
+D:\Мои документы\Учеба\3 семестр\ООП\lab00\obj\Debug\lab00.csproj.AssemblyReference.cache
+D:\Мои документы\Учеба\3 семестр\ООП\lab00\obj\Debug\lab00.csproj.SuggestedBindingRedirects.cache
+D:\Мои документы\Учеба\3 семестр\ООП\lab00\obj\Debug\lab00.csproj.CoreCompileInputs.cache
+D:\Мои документы\Учеба\3 семестр\ООП\lab00\obj\Debug\lab00.exe
+D:\Мои документы\Учеба\3 семестр\ООП\lab00\obj\Debug\lab00.pdb

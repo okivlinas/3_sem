@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "7xVFmcvEgfAbcViOfUADaQqQbK43xXDYjhN4sp3lFmzURYD5jHkI7oaV13FwUTpuiBFxz/fHzJhwB9jTTOOF+w==",
+  "success": false,
+  "projectFilePath": "D:\\Документы\\_university\\_3_sem\\OOP\\Lab13\\Server\\Server.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось загрузить индекс служб для источника https://api.nuget.org/v3/index.json.",
+      "libraryId": "SoapFormatter"
+    }
+  ]
+}

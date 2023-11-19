@@ -1,0 +1,15 @@
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\bin\Debug\net6.0\Lab_09.exe
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\bin\Debug\net6.0\Lab_09.deps.json
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\bin\Debug\net6.0\Lab_09.runtimeconfig.json
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\bin\Debug\net6.0\Lab_09.dll
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\bin\Debug\net6.0\Lab_09.pdb
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\obj\Debug\net6.0\Lab_09.csproj.AssemblyReference.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\obj\Debug\net6.0\Lab_09.GeneratedMSBuildEditorConfig.editorconfig
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\obj\Debug\net6.0\Lab_09.AssemblyInfoInputs.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\obj\Debug\net6.0\Lab_09.AssemblyInfo.cs
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\obj\Debug\net6.0\Lab_09.csproj.CoreCompileInputs.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\obj\Debug\net6.0\Lab_09.dll
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\obj\Debug\net6.0\refint\Lab_09.dll
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\obj\Debug\net6.0\Lab_09.pdb
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\obj\Debug\net6.0\Lab_09.genruntimeconfig.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_09(n)\Lab_09\Lab_09\obj\Debug\net6.0\ref\Lab_09.dll

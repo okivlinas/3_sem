@@ -1,0 +1,8 @@
+D:\Мои документы\_university\3_sem\OOP\lab04\bin\Debug\lab04.exe.config
+D:\Мои документы\_university\3_sem\OOP\lab04\bin\Debug\lab04.exe
+D:\Мои документы\_university\3_sem\OOP\lab04\bin\Debug\lab04.pdb
+D:\Мои документы\_university\3_sem\OOP\lab04\obj\Debug\lab04.csproj.AssemblyReference.cache
+D:\Мои документы\_university\3_sem\OOP\lab04\obj\Debug\lab04.csproj.SuggestedBindingRedirects.cache
+D:\Мои документы\_university\3_sem\OOP\lab04\obj\Debug\lab04.csproj.CoreCompileInputs.cache
+D:\Мои документы\_university\3_sem\OOP\lab04\obj\Debug\lab04.exe
+D:\Мои документы\_university\3_sem\OOP\lab04\obj\Debug\lab04.pdb

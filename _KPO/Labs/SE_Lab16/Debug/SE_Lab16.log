@@ -1,0 +1,31 @@
+﻿Сборка начата 23.09.2023 13:40:01.
+Уровень детализации журнала: Normal.     1>Проект "D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\SE_Lab16.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\SE_Lab16.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt FST.cpp SE_Lab16.cpp
+         FST.cpp
+     1>D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\FST.cpp(63,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         SE_Lab16.cpp
+     1>D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\SE_Lab16.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\Debug\SE_Lab16.exe" /INCREMENTAL /ILK:"Debug\SE_Lab16.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\Debug\SE_Lab16.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\Debug\SE_Lab16.lib" /MACHINE:X86 Debug\SE_Lab16.obj
+         Debug\FST.obj
+         SE_Lab16.vcxproj -> D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\Debug\SE_Lab16.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SE_Lab16.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_Lab16.tlog\SE_Lab16.lastbuildstate".
+     1>Сборка проекта "D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\SE_Lab16.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\SE_Lab16.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\FST.cpp(63,37): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\Мои документы\Учеба\3 семестр\КПО\SE_Lab16\SE_Lab16.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:02.09

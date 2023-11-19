@@ -1,0 +1,39 @@
+﻿Сборка начата 02.10.2023 23:32:40.
+Уровень детализации журнала: Normal.     1>Проект "D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\SELab17.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt SELab17.cpp Error.cpp Log.cpp Out.cpp Parm.cpp Source.cpp In.cpp
+         SELab17.cpp
+         Error.cpp
+         Log.cpp
+         Out.cpp
+         Parm.cpp
+         Source.cpp
+         In.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Мои документы\_university\3_sem\KPO\SELab17\x64\Debug\SELab17.exe" /INCREMENTAL /ILK:"x64\Debug\SELab17.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Мои документы\_university\3_sem\KPO\SELab17\x64\Debug\SELab17.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Мои документы\_university\3_sem\KPO\SELab17\x64\Debug\SELab17.lib" /MACHINE:X64 x64\Debug\SELab17.obj
+         x64\Debug\Error.obj
+         x64\Debug\Log.obj
+         x64\Debug\Out.obj
+         x64\Debug\Parm.obj
+         x64\Debug\Source.obj
+         x64\Debug\In.obj
+     1>In.obj : error LNK2005: "struct In::IN __cdecl In::getin(wchar_t * const)" (?getin@In@@YA?AUIN@1@QEA_W@Z) уже определен в SELab17.obj
+     1>In.obj : error LNK2005: "void __cdecl In::skip(char *,int)" (?skip@In@@YAXPEADH@Z) уже определен в SELab17.obj
+     1>D:\Мои документы\_university\3_sem\KPO\SELab17\x64\Debug\SELab17.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
+     1>Сборка проекта "D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\Мои документы\_university\3_sem\KPO\SELab17\SELab17.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         In.obj : error LNK2005: "struct In::IN __cdecl In::getin(wchar_t * const)" (?getin@In@@YA?AUIN@1@QEA_W@Z) уже определен в SELab17.obj
+         In.obj : error LNK2005: "void __cdecl In::skip(char *,int)" (?skip@In@@YAXPEADH@Z) уже определен в SELab17.obj
+         D:\Мои документы\_university\3_sem\KPO\SELab17\x64\Debug\SELab17.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
+
+    Предупреждений: 0
+    Ошибок: 3
+
+Прошло времени 00:00:03.33

@@ -1,0 +1,14 @@
+let a = 5;
+console.log(typeof a);
+let name = "Name";
+console.log(typeof name);
+let i = 0;
+console.log(typeof i);
+let double = 0.23;
+console.log(typeof double);
+let result = 1/0;
+console.log(typeof result);
+let answer = true;
+console.log(typeof answer);
+let no = null;
+console.log(typeof no);

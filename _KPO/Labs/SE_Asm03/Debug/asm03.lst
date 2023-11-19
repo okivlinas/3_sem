@@ -1,0 +1,117 @@
+Microsoft (R) Macro Assembler Version 14.37.32825.0	    11/14/23 17:38:54
+asm03.asm						     Page 1 - 1
+
+
+				.MODEL FLAT, STDCALL
+				includelib kernel32.lib
+
+				ExitProcess PROTO : DWORD
+				MessageBoxA PROTO : DWORD, : PTR BYTE, : PTR BYTE, : DWORD
+
+				.STACK 4096
+
+ 00000000			.CONST
+
+ 00000000			.DATA
+ 00000000 10 20 30 40		myBytes      BYTE 10h, 20h, 30h, 40h
+ 00000004 008A 003B 0044	myWords      WORD 8Ah, 3BH, 44h, 5Fh, 99h
+	   005F 0099
+ 0000000E 00000001		myDoubles    DWORD 1, 2, 3, 4, 5, 6
+	   00000002
+	   00000003
+	   00000004
+	   00000005
+	   00000006
+ 00000026 0000000E R		myPointer    DWORD myDoubles
+ 0000002A 00000001		array        DWORD 1, 0, 3, 4, 5, 6
+	   00000000
+	   00000003
+	   00000004
+	   00000005
+	   00000006
+ 00000042 00000000		sum          DWORD 0
+
+ 00000000			.CODE
+
+ 00000000			main PROC
+ 00000000			START:
+ 00000000  BE 00000000 R		mov ESI, OFFSET myBytes
+ 00000005  8A 26			mov AH, [ESI]
+ 00000007  8A 46 02			mov AL, [ESI+2]
+
+ 0000000A  BE 0000002A R		mov ESI, OFFSET array
+ 0000000F  B9 00000006			mov ECX, LENGTHOF array
+ 00000014  B8 00000000			mov EAX, 0
+
+ 00000019			sum_loop:
+ 00000019  83 3E 00			cmp DWORD PTR [ESI], 0  ; Проверить значение текущего элемента
+ 0000001C  74 09			jz EXIT_WITH_NULL       ; Если равно нулю, выйти из цикла
+
+ 0000001E  03 06			add EAX, [ESI]
+ 00000020  83 C6 04			add ESI, TYPE array
+ 00000023  E2 F4			loop sum_loop
+
+ 00000025  EB 07			jmp Exit
+
+ 00000027			EXIT_WITH_NULL:
+ 00000027  BB 00000000			mov EBX, 0
+ 0000002C  EB 00			jmp Exit
+
+ 0000002E			Exit:
+ 0000002E  6A FF			push -1
+ 00000030  E8 00000000 E		call ExitProcess
+ 00000035			main ENDP
+
+				end main
+Microsoft (R) Macro Assembler Version 14.37.32825.0	    11/14/23 17:38:54
+asm03.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+CONST  . . . . . . . . . . . . .	32 Bit	 00000000 Para	  Public  'CONST'	 ReadOnly
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000046 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000035 Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+MessageBoxA  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
+main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000035 Public STDCALL
+  START  . . . . . . . . . . . .	L Near	 00000000 _TEXT	
+  sum_loop . . . . . . . . . . .	L Near	 00000019 _TEXT	
+  EXIT_WITH_NULL . . . . . . . .	L Near	 00000027 _TEXT	
+  Exit . . . . . . . . . . . . .	L Near	 0000002E _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000003h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+array  . . . . . . . . . . . . .	DWord	 0000002A _DATA	
+myBytes  . . . . . . . . . . . .	Byte	 00000000 _DATA	
+myDoubles  . . . . . . . . . . .	DWord	 0000000E _DATA	
+myPointer  . . . . . . . . . . .	DWord	 00000026 _DATA	
+myWords  . . . . . . . . . . . .	Word	 00000004 _DATA	
+sum  . . . . . . . . . . . . . .	DWord	 00000042 _DATA	
+
+	   0 Warnings
+	   0 Errors

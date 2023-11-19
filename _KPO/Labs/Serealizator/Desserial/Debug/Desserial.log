@@ -1,0 +1,7 @@
+﻿  Deserealizer.cpp
+D:\Документы\_university\_KPO\Serealizator\Desserial\Deserealizer.h(12,2): warning C4091: static : пропускается слева от "Deserealizator", когда ни одна переменная не объявлена
+  Desserialization.cpp
+D:\Документы\_university\_KPO\Serealizator\Desserial\Deserealizer.h(12,2): warning C4091: static : пропускается слева от "Deserealizator", когда ни одна переменная не объявлена
+D:\Документы\_university\_KPO\Serealizator\Desserial\Desserialization.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода...
+  Desserial.vcxproj -> D:\Документы\_university\_KPO\Serealizator\Desserial\Debug\Desserial.exe
