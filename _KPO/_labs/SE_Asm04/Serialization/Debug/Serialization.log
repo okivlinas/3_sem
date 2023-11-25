@@ -1,0 +1,7 @@
+﻿  Serealizater.cpp
+D:\Документы\_university\3_sem\_KPO\_labs\SE_Asm04\Serialization\Serealizater.h(8,2): warning C4091: static : пропускается слева от "Serealizer", когда ни одна переменная не объявлена
+  Serialization.cpp
+D:\Документы\_university\3_sem\_KPO\_labs\SE_Asm04\Serialization\Serealizater.h(8,2): warning C4091: static : пропускается слева от "Serealizer", когда ни одна переменная не объявлена
+D:\Документы\_university\3_sem\_KPO\_labs\SE_Asm04\Serialization\Serialization.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода...
+  Serialization.vcxproj -> D:\Документы\_university\3_sem\_KPO\_labs\SE_Asm04\Serialization\Debug\Serialization.exe

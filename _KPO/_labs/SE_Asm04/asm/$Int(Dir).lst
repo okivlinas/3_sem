@@ -1,0 +1,60 @@
+Microsoft (R) Macro Assembler (x64) Version 14.37.32825.0   11/24/23 19:07:59
+asm.asm							     Page 1 - 1
+
+
+				.586
+asm.asm(1) : error A2008:syntax error : .
+				.MODEL FLAT, STDCALL
+asm.asm(2) : error A2008:syntax error : .
+				includelib kernel32.lib
+				ExitProcess PROTO : DWORD
+				.STACK 4096
+asm.asm(5) : error A2008:syntax error : .
+
+ 00000000			.CONST
+
+ 00000000			.DATA
+
+ 00000000 000007D5		INT0	DWORD	2005
+ 00000004 6F 6C 65 67 00	STR1	DB	"oleg",0
+
+ 00000000			.CODE
+ 00000000			main PROC
+ 00000000			START :
+ 00000000  6A FF		push - 1
+ 00000002  E8 00000000 E	call ExitProcess
+ 00000007			main ENDP
+				end main
+asm.asm(20) : error A2008:syntax error : main
+asm.asm(20) : error A2088:END directive required at end of file
+Microsoft (R) Macro Assembler (x64) Version 14.37.32825.0   11/24/23 19:07:59
+asm.asm							     Symbols 2 - 1
+
+
+
+
+Segments:
+
+                N a m e                  Length   Align   Class
+
+CONST  . . . . . . . . . . . . .	 00000000 16	  'CONST'	 ReadOnly
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+ExitProcess  . . . . . . . . . .	P 	 00000000 Length= 00000000 External
+main . . . . . . . . . . . . . .	P 	 00000000 _TEXT	Length= 00000007 Public
+  START  . . . . . . . . . . . .	L 	 00000000 _TEXT	
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+INT0 . . . . . . . . . . . . . .	DWord	 00000000 _DATA	
+STR1 . . . . . . . . . . . . . .	Byte	 00000004 _DATA	
+
+	   0 Warnings
+	   5 Errors

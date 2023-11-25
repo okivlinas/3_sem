@@ -1,7 +1,0 @@
-﻿  Serealizater.cpp
-D:\Документы\_university\_KPO\Serealizator\Sereal\Serealizater.h(8,2): warning C4091: static : пропускается слева от "Serealizer", когда ни одна переменная не объявлена
-  Serialization.cpp
-D:\Документы\_university\_KPO\Serealizator\Sereal\Serealizater.h(8,2): warning C4091: static : пропускается слева от "Serealizer", когда ни одна переменная не объявлена
-D:\Документы\_university\_KPO\Serealizator\Sereal\Serialization.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  Создание кода...
-  Sereal.vcxproj -> D:\Документы\_university\_KPO\Serealizator\Sereal\x64\Debug\Sereal.exe

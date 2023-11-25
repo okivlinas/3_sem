@@ -1,0 +1,3 @@
+﻿  Deserealizer.cpp
+D:\Документы\_university\3_sem\_KPO\_labs\SE_Asm04\Deserealization\Deserealizer.h(12,2): warning C4091: static : пропускается слева от "Deserealizator", когда ни одна переменная не объявлена
+  Deserealization.vcxproj -> D:\Документы\_university\3_sem\_KPO\_labs\SE_Asm04\Deserealization\Debug\Deserealization.exe
