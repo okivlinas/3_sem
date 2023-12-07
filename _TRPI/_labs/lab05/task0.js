@@ -6,10 +6,9 @@ function makeCounter()
    }
 }
 let counter1=makeCounter();
-let counter2=makeCounter();
 alert(counter1());
 alert(counter1());
 
+let counter2=makeCounter();
 alert(counter2());
-alert(counter1());
-alert(counter1());
+alert(counter2());
