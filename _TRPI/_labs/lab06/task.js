@@ -59,6 +59,8 @@ let {
   let filterDialogs = dialogs.filter(item => item.id % 2 === 0)
   console.log(filterDialogs)
 
+  console.log(store.state.dialogsPage.message)
+
   store.state.dialogsPage.message.map(item => item.message="Hello user")
   console.log(store.state.dialogsPage.message)
 
