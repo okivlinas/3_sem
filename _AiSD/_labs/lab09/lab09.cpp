@@ -1,11 +1,11 @@
 ﻿#include <iostream>
-#include<vector>
-#include<algorithm>
+#include <vector>
+#include <algorithm>
 #include <limits.h>
 #include <Windows.h>
 #include <random>
-using namespace std;
 
+using namespace std;
 
 #define V 5
 //#define V 8
@@ -13,8 +13,8 @@ using namespace std;
 int childsNumber = 0;
 int populationSize = 0;
 int evolutionCirclsNumber = 0;
-vector<int> nodes = { 1, 2, 3, 4, 5, 6, 7 };
 
+vector<int> nodes = { 1, 2, 3, 4, 5, 6, 7 };
 
 int map[V][V] = { { INT_MAX, 25, 40, 31, 27},
 				{ 5, INT_MAX, 17, 30, 25},
@@ -33,12 +33,11 @@ int map[V][V] = { { INT_MAX, 25, 40, 31, 27},
 //				{70, 10, 70, 25, 25, 70, 40, INT_MAX}
 //};
 
-
-struct individual {
+struct individual 
+{
 	string genome;
 	int adaptability;
 };
-
 
 int generateRandomNumber(int start, int end)
 {
