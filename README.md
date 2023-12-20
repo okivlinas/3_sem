@@ -6,3 +6,5 @@
 4. `_OOP` - basically everything is here
 5. `_TRPI` - everything is super here, everything works fine
 6. `_TerVer` - I have variant 9, but I advise you to take it as a template and do it yourself
+
+If you have any questions, please contact me. Links to my contacts are in my profile
