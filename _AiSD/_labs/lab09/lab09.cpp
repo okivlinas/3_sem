@@ -7,31 +7,34 @@
 
 using namespace std;
 
-#define V 5
-//#define V 8
+//#define V 5
+#define V 8
 
 int childsNumber = 0;
 int populationSize = 0;
 int evolutionCirclsNumber = 0;
 
-vector<int> nodes = { 1, 2, 3, 4, 5, 6, 7 };
+vector<int> nodes = { 1, 2, 3, 4, 5, 6, 7, 8};
 
-int map[V][V] = { { INT_MAX, 25, 40, 31, 27},
+/*
+
 				{ 5, INT_MAX, 17, 30, 25},
 				{ 19, 15, INT_MAX, 6, 1},
 				{ 9, 50, 24, INT_MAX, 6 },
 				{ 22, 8, 7, 10, INT_MAX },
 };
+*/
+//int map[V][V] = { { INT_MAX, 25, 40, 31, 27},
 
-//int map[V][V] = { {INT_MAX, 50, 60, 20, 20, 30, 10, 70},
-//				{50, INT_MAX, 10, 90, 70, 20, 35, 10},
-//				{60, 10, INT_MAX, 20, 70, 40, 30, 70},
-//				{20, 90, 20, INT_MAX, 20, 70, 80, 25},
-//				{20, 70, 70, 20, INT_MAX, 60, 70, 25},
-//				{30, 20, 40, 70, 60, INT_MAX, 20, 70},
-//				{10, 35, 30, 80, 70, 20, INT_MAX, 40},
-//				{70, 10, 70, 25, 25, 70, 40, INT_MAX}
-//};
+int map[V][V] = { {INT_MAX, 50, 60, 20, 20, 30, 10, 70},
+				{50, INT_MAX, 10, 90, 70, 20, 35, 10},
+				{60, 10, INT_MAX, 20, 70, 40, 30, 70},
+				{20, 90, 20, INT_MAX, 20, 70, 80, 25},
+				{20, 70, 70, 20, INT_MAX, 60, 70, 25},
+				{30, 20, 40, 70, 60, INT_MAX, 20, 70},
+				{10, 35, 30, 80, 70, 20, INT_MAX, 40},
+				{70, 10, 70, 25, 25, 70, 40, INT_MAX}
+};
 
 struct individual 
 {
