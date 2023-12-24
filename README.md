@@ -1,4 +1,4 @@
-## All laboratory work for the 3rd semester of POIT is located here. If you have any questions, please contact me)
+## All laboratory work for the 3rd semester of POIT is located here. If you have any questions, please contact me
 
 1. `_AiSD` - there are no variants, the labs are well made
 2. `_KPO` - there are no variants here, I advise you to take it as a basis and remake it for yourself
