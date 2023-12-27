@@ -1,0 +1,3 @@
+C:\Users\HP\Desktop\StaticLib\Debug\StaticLib.lib
+D:\Учёба\3сем\КПО\Лабы\SE_Asm05\StaticLib\Debug\StaticLib.lib
+D:\Документы\_ff\SE_Asm05_Libraries\StaticLib\Debug\StaticLib.lib

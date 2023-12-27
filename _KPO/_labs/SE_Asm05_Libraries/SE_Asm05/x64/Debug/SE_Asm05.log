@@ -1,0 +1,38 @@
+﻿Сборка начата 09.11.2023 12:29:45.
+Уровень детализации журнала: Normal.     1>Проект "D:\Учёба\3сем\КПО\Лабы\SE_Asm05\SE_Asm05\SE_Asm05.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "D:\Учёба\3сем\КПО\Лабы\SE_Asm05\x64\Debug\".
+         Создание каталога "x64\Debug\SE_Asm05.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\SE_Asm05.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+         Assembling asm5.asm...
+         cmd.exe /C "C:\Users\HP\AppData\Local\Temp\tmp58ce004097174556ac4afb3f6516ce5d.cmd"
+         ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm5.obj" /W3 /errorReport:prompt  /Taasm5.asm
+     1>asm5.asm(1): error A2008: syntax error : .
+     1>asm5.asm(2): error A2008: syntax error : .
+     1>asm5.asm(8): error A2008: syntax error : .
+     1>asm5.asm(33): error A2008: syntax error : getmin
+     1>asm5.asm(34): error A2070: invalid instruction operands
+     1>asm5.asm(40): error A2008: syntax error : main
+     1>asm5.asm(40): error A2088: END directive required at end of file
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm5.obj" /W3 /errorReport:prompt  /Taasm5.asm" с кодом "1".
+     1>Сборка проекта "D:\Учёба\3сем\КПО\Лабы\SE_Asm05\SE_Asm05\SE_Asm05.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\Учёба\3сем\КПО\Лабы\SE_Asm05\SE_Asm05\SE_Asm05.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         asm5.asm(1): error A2008: syntax error : .
+         asm5.asm(2): error A2008: syntax error : .
+         asm5.asm(8): error A2008: syntax error : .
+         asm5.asm(33): error A2008: syntax error : getmin
+         asm5.asm(34): error A2070: invalid instruction operands
+         asm5.asm(40): error A2008: syntax error : main
+         asm5.asm(40): error A2088: END directive required at end of file
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml64.exe /c /nologo /Zi /Fo"x64\Debug\asm5.obj" /W3 /errorReport:prompt  /Taasm5.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 8
+
+Прошло времени 00:00:00.32
