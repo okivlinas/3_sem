@@ -1,0 +1,15 @@
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\obj\Debug\net6.0\Lab_16.csproj.AssemblyReference.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\obj\Debug\net6.0\Lab_16.GeneratedMSBuildEditorConfig.editorconfig
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\obj\Debug\net6.0\Lab_16.AssemblyInfoInputs.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\obj\Debug\net6.0\Lab_16.AssemblyInfo.cs
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\obj\Debug\net6.0\Lab_16.csproj.CoreCompileInputs.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\bin\Debug\net6.0\Lab_16.exe
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\bin\Debug\net6.0\Lab_16.deps.json
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\bin\Debug\net6.0\Lab_16.runtimeconfig.json
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\bin\Debug\net6.0\Lab_16.dll
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\bin\Debug\net6.0\Lab_16.pdb
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\obj\Debug\net6.0\Lab_16.dll
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\obj\Debug\net6.0\refint\Lab_16.dll
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\obj\Debug\net6.0\Lab_16.pdb
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\obj\Debug\net6.0\Lab_16.genruntimeconfig.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_16(n)\Lab_16\Lab_16\obj\Debug\net6.0\ref\Lab_16.dll

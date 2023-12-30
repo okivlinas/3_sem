@@ -1,0 +1,15 @@
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\bin\Debug\net6.0\Lab_18_Pattern.exe
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\bin\Debug\net6.0\Lab_18_Pattern.deps.json
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\bin\Debug\net6.0\Lab_18_Pattern.runtimeconfig.json
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\bin\Debug\net6.0\Lab_18_Pattern.dll
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\bin\Debug\net6.0\Lab_18_Pattern.pdb
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\obj\Debug\net6.0\Lab_18_Pattern.csproj.AssemblyReference.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\obj\Debug\net6.0\Lab_18_Pattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\obj\Debug\net6.0\Lab_18_Pattern.AssemblyInfoInputs.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\obj\Debug\net6.0\Lab_18_Pattern.AssemblyInfo.cs
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\obj\Debug\net6.0\Lab_18_Pattern.csproj.CoreCompileInputs.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\obj\Debug\net6.0\Lab_18_Pattern.dll
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\obj\Debug\net6.0\refint\Lab_18_Pattern.dll
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\obj\Debug\net6.0\Lab_18_Pattern.pdb
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\obj\Debug\net6.0\Lab_18_Pattern.genruntimeconfig.cache
+D:\studing\3 семестр\ООПиП\Лабораторные работы\Lab_19-20(n)\Lab_19_Pattern\Lab_17_Pattern\obj\Debug\net6.0\ref\Lab_18_Pattern.dll
