@@ -6,3 +6,10 @@ D:\Мои документы\Учеба\3 семестр\ООП\lab02\obj\Debug\
 D:\Мои документы\Учеба\3 семестр\ООП\lab02\obj\Debug\lab02.csproj.CoreCompileInputs.cache
 D:\Мои документы\Учеба\3 семестр\ООП\lab02\obj\Debug\lab02.exe
 D:\Мои документы\Учеба\3 семестр\ООП\lab02\obj\Debug\lab02.pdb
+D:\Документы\_university\3_sem\_OOP\_labs\lab02\bin\Debug\lab02.exe.config
+D:\Документы\_university\3_sem\_OOP\_labs\lab02\bin\Debug\lab02.exe
+D:\Документы\_university\3_sem\_OOP\_labs\lab02\bin\Debug\lab02.pdb
+D:\Документы\_university\3_sem\_OOP\_labs\lab02\obj\Debug\lab02.csproj.AssemblyReference.cache
+D:\Документы\_university\3_sem\_OOP\_labs\lab02\obj\Debug\lab02.csproj.CoreCompileInputs.cache
+D:\Документы\_university\3_sem\_OOP\_labs\lab02\obj\Debug\lab02.exe
+D:\Документы\_university\3_sem\_OOP\_labs\lab02\obj\Debug\lab02.pdb
